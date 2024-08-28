@@ -1,0 +1,89 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Good day",
+                "What's Up",
+                "Hey",
+                "Greetings"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there,how can I help?"
+            ]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "Goodbye",
+                "goodbye",
+                "See you later",
+                "Bye",
+                "BYE",
+                "Have a great day",
+                "Take care",
+                "Catch you later",
+                "See you soon"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later! Take care!",
+                "Bye! If you need anything else, just ask.",
+                "Take care! Hope to talk to you again soon.",
+                "Catch you later! Have a wonderful day."
+            ]
+        },
+        {
+            "tag": "Courses",
+            "patterns": [
+                "What are the courses's provided by the college?",
+                "Courses list",
+                "Please provide me a course list",
+                "Subjects",
+                "subjects",
+                "What are the Subjects provided by the college?"
+            ],
+            "responses": [
+                "BCA,BS CSIT,BIM,Computer Enginerring, Architecture ",
+                "Sure Here are Some Courses 1. BCA 2. BS CSIT 3. BIM 4. Computer Enginerring 5. Architecture "
+            ]
+        },
+        {
+            "tag": "BCA",
+            "patterns": [
+                "What is the fee structure for BCA?",
+                "BCA fee",
+                "bca Fee",
+                "structure of bca",
+                "cost of bca",
+                "how much does bca cost",
+                "study bca",
+                "bca study"
+            ],
+            "responses": [
+                "The total fee for the BCA course is approximately Rs 5,00,000/-. Please contact the administration for detailed payment plans."
+            ]
+        },
+        {
+            "tag": "CSIT",
+            "patterns": [
+                "What is the fee structure for CSIT?",
+                "csit fee",
+                "csit Fee",
+                "structure fee of csit",
+                "cost of csit",
+                "how much does csit cost",
+                "study csut",
+                "csit study"
+            ],
+            "responses": [
+                "The total fee for the CSIT course is approximately Rs 5,00,000/-. Please contact the administration for detailed payment plans."
+            ]
+        }
+    ]
+}
